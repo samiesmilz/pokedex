@@ -1,11 +1,13 @@
 .Pokecard {
   background-color: rgba(128, 128, 128, 0.327);
   border-radius: 5px;
-  width: calc(25% - 10px);
+  width: 250px;
+  height: auto;
   background-color: #f0f0f0;
   padding: 25px;
   box-sizing: border-box;
   text-align: center;
+  margin: 5px;
 }
 
 .Pokecard-title {
@@ -22,4 +24,9 @@
 
 .Pokecard-exp {
   margin-bottom: 2px;
+}
+
+.Pokecard:hover {
+  background-color: antiquewhite;
+  border: 0.5px solid black;
 }

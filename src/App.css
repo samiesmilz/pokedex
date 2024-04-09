@@ -6,5 +6,15 @@
 }
 
 .App-header {
-  color: gray;
+  color: rgba(77, 74, 84, 0.774);
+  font-size: large;
+  font-weight: bolder;
+}
+
+.App-container {
+  width: 100%;
+}
+
+.App-header:hover {
+  color: #8e6fb1;
 }

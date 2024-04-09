@@ -1,5 +1,25 @@
 .Pokedex {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px; /* Adjust the gap between cards */
+  justify-content: space-around;
+  padding: 10px;
+  border-radius: 10px;
+  width: auto;
+  margin-top: 15px;
+  margin-bottom: 1px;
+}
+
+.success {
+  background-color: lightgreen;
+}
+
+.dark {
+  background-color: rgba(105, 105, 105, 0.437);
+}
+
+.Pokedex-alert {
+  background-color: lightgreen;
+  margin: 0;
+  border-radius: 10px;
+  font-size: small;
 }
